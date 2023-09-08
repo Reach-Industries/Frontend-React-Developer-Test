@@ -5,7 +5,7 @@
 # Test Introduction
 
 
-Our customers set up our cameras, called LabEyes, within their lab environments to gather visual data which is then processed by Lumi into quantitative values. Once we have derived data from a video we can then overlay it on the video in real time to simply visualise what Lumi has generated.
+Our customers set up our cameras, called LabEyes, within their lab environments to gather visual data which is then processed by Lumi (our cloud platform) into quantitative values. Once we have derived data from a video, we can overlay it on the video in real time to visualize what Lumi has generated.
 
 This assessment will centre around building a single page application, fetching remote data and displaying synchronised video and annotation information.
 You should design your work as if it were something you will be iterating on in the future in collaboration with other people - you won’t actually be doing this, but this should be considered in your decisions and code style
@@ -34,42 +34,42 @@ Required Features:
 
 ## Bonus Task
 
-- Make the application responsive for mobile with the sidebar becoming a slide-in hamburger menu
+- Make the application responsive for mobile with the sidebar becoming a slide-in hamburger menu.
 
 # Setup & Environment
 
 Must use
-- Type Script
-- React
+- Type Script.
+- React.
 
 # Deliverables & How to submit
 
-- Code uploaded to GitHub (either as a public repo or private repo)
-- Repo must be runnable/buildable with little to no input from 
-- A usable demo deployment of the app (Vercel, GitHub Pages etc)
-- Detailed notes in the repository's README.md. Explain the libraries you've used, any resources you've referenced, your design approach, and any constraints you faced. Your insights and clarity in this section are critical.
+- Code uploaded to GitHub (either as a public repo or private repo).
+- The repo should be easily runnable or buildable without additional intervention from the evaluators.
+- A usable demo deployment of the app (Vercel, GitHub Pages etc).
+- Detailed notes in the repository's README.md. Explain the libraries you've used, any resources you've referenced, your design approach, and any constraints you faced. Your insights and the clarity of your explanation in this section are critical.
 
 ## Bonus
 
-- Dockerised Repo with an automated build process
+- Dockerised Repo with an automated build process.
 
 # Evaluation Criteria
 
 You will be marked on:
-- Your code quality
-- Your project organisation
-- The clarity, aesthetics and usability of your application (only a basic effort is required)
-- The efficiency of your approach to providing a solution
-- The rationale you provide for the approach you have taken (in comments or in supporting documents)
+- Your code quality.
+- Your project organisation.
+- The clarity, aesthetics and usability of your application (only a basic effort is required).
+- The efficiency of your approach to providing a solution.
+- The rationale you provide for the approach you have taken (in comments or in supporting documents).
 
 # FAQ
 ## 1. Do I need to set up any specific environment or version of TypeScript and React for this assessment?
-- No, as long as they are valid builds of Typscript and React
+- No, as long as they are valid builds of TypeScript and React
 
 ## 2. Is there a preferred method or tool for fetching the remote data?
 - No. 
 
-## 3. Can I use a framework or library other than React for certain components, like the video player, as long as the main application is in React.
+## 3. Can I use a framework or library other than React for certain components, like the video player, as long as the main application is in React?
 - Any framework or library can be used to complete the required tasks, but React and Typescript must be used for most of the application. 
 
 # Troubleshooting & Support
