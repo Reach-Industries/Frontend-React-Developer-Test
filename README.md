@@ -2,30 +2,69 @@
 <img src=https://via.placeholder.com/150/>
 </p>
 
-***Replace any content text in bold.***
-
 # Test Introduction
 
-***Guidance Text: Here, provide a brief overview of the context and background for the test. What is the main objective of this test? Why is it important for the role in question? Set the scene for the candidate so they can understand the larger picture.***
+This assessment will centre around building a single page application, fetching remote data and displaying synchronised video and annotation information.
+You should design your work as if it were something you will be iterating on in the future in collaboration with other people - you won’t actually be doing this, but this should be considered in your decisions and code style
+
+# Brief
+
+Our customers set up our cameras, called LabEyes, within their lab environments to gather visual data which is then processed by Lumi into quantitative values. Once we have derived data from a video we can then overlay it on the video in real time to simply visualise what Lumi has generated.
 
 # Task
 
-***Guidance Text: Clearly describe the specific task(s) the candidate needs to complete. This section should contain all the necessary details, requirements, and any assumptions you want the candidate to make. Ensure to be as precise as possible to avoid misunderstandings.***
+You have been provided with two remote data sources for a 20-second observation:
+
+- An mp4 video [here](https://reach-industries-candidate-tests.s3.eu-west-2.amazonaws.com/FrontendCandidateTest-FINAL.mp4).
+- Annotation data in JSON format [here](https://reach-industries-candidate-tests.s3.eu-west-2.amazonaws.com/FrontendCandidateTest-FINAL.json).
+
+The main goal is to display the video with the provided data visualized on top of it.
+Required Features:
+- A header containing the title “Reach Industries Frontend Assessment”.
+- A sidebar listing available videos (please add mock entries for demonstration purposes).
+- A main pane that includes:
+-- The playable, scrubbable video with annotations.
+-- Raw data of the currently displayed video frame.
+-- The complete raw JSON in a toggleable section.
+-- A button to download the entire JSON.
+
+## Notes
+-Fetch data from the provided URLs during runtime.
+- Some video frames might lack data.
+- The design should prevent scrolling or clipped overflow on a single page.
+
+## Bonus Task
+
+- Make the application responsive for mobile with the sidebar becoming a slide-in hamburger menu
 
 # Setup & Environment
 
-***Guidance Text: Detail any setup steps, required software, or specific environment configurations necessary to undertake the test. If there are any dependencies to be installed or initial steps to be taken before the task, mention them here.***
+Must use
+- Type Script
+- React
 
 # Deliverables & How to submit
 
-***Guidance Text: Define clearly what the candidate should submit at the end of the test. For instance, do they need to submit code, a report, a presentation, or all of the above? Additionally, provide a clear procedure on how they should submit their work. This could be via a pull request, email, a specific platform, etc.***
+- Code uploaded to GitHub (either as a public repo or private repo)
+- Repo must be runnable/buildable with little to no input from 
+- A usable demo deployment of the app (Vercel, GitHub Pages etc)
+- Detailed notes in the repository's README.md. Explain the libraries you've used, any resources you've referenced, your design approach, and any constraints you faced. Your insights and clarity in this section are critical.
+
+## Bonus
+
+- Dockerised Repo with an automated build process
 
 # Evaluation Criteria
 
-***Guidance Text: Explain how you will be evaluating their submissions. What are the key criteria or metrics you will be looking at? This helps the candidate focus on what's essential for the test.***
+You will be marked on:
+- Your code quality
+- Your project organisation
+- The clarity, aesthetics and usability of your application (only a basic effort is required)
+- The efficiency of your approach to providing a solution
+- The rationale you provide for the approach you have taken (in comments or in supporting documents)
 
 # FAQ
-## 1.
+## 1. 
 
 ## 2. 
 
