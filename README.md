@@ -75,7 +75,7 @@ You will be marked on:
 - Absolutely. Please approach this test in the same way you would approach a standard piece of work. As stated previously, the only stipulation is you must use React and Typescript.
 
 # Troubleshooting & Support
-Who @Reach.Industries?
+Test@Reach.Industries
 
 # Terms & Conditions for Interview Tests
 
