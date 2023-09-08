@@ -22,10 +22,10 @@ Required Features:
 - A header containing the title “Reach Industries Frontend Assessment”.
 - A sidebar listing available videos (please add mock entries for demonstration purposes).
 - A main pane that includes:
--- The playable, scrubbable video with annotations.
--- Raw data of the currently displayed video frame.
--- The complete raw JSON in a toggleable section.
--- A button to download the entire JSON.
+  - The playable, scrubbable video with annotations.
+  - Raw data of the currently displayed video frame.
+  - The complete raw JSON in a toggleable section.
+  - A button to download the entire JSON.
 
 ## Notes
 - Fetch data from the provided URLs during runtime.
