@@ -63,11 +63,14 @@ You will be marked on:
 - The rationale you provide for the approach you have taken (in comments or in supporting documents)
 
 # FAQ
-## 1. 
+## 1. Do I need to set up any specific environment or version of TypeScript and React for this assessment?
+- No, as long as they are valid builds of Typscript and React
 
-## 2. 
+## 2. Is there a preferred method or tool for fetching the remote data?
+- No. 
 
-## 3.
+## 3. Can I use a framework or library other than React for certain components, like the video player, as long as the main application is in React.
+- Any framework or library can be used to complete the required tasks, but React and Typescript must be used for most of the application. 
 
 # Troubleshooting & Support
 Who @Reach.Industries?
