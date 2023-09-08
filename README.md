@@ -4,12 +4,11 @@
 
 # Test Introduction
 
-This assessment will centre around building a single page application, fetching remote data and displaying synchronised video and annotation information.
-You should design your work as if it were something you will be iterating on in the future in collaboration with other people - you won’t actually be doing this, but this should be considered in your decisions and code style
-
-# Brief
 
 Our customers set up our cameras, called LabEyes, within their lab environments to gather visual data which is then processed by Lumi into quantitative values. Once we have derived data from a video we can then overlay it on the video in real time to simply visualise what Lumi has generated.
+
+This assessment will centre around building a single page application, fetching remote data and displaying synchronised video and annotation information.
+You should design your work as if it were something you will be iterating on in the future in collaboration with other people - you won’t actually be doing this, but this should be considered in your decisions and code style
 
 # Task
 
@@ -29,7 +28,7 @@ Required Features:
 -- A button to download the entire JSON.
 
 ## Notes
--Fetch data from the provided URLs during runtime.
+- Fetch data from the provided URLs during runtime.
 - Some video frames might lack data.
 - The design should prevent scrolling or clipped overflow on a single page.
 
