@@ -4,8 +4,7 @@
 
 # Test Introduction
 
-
-Our customers set up our cameras, called LabEyes, within their lab environments to gather visual data which is then processed by Lumi (our cloud platform) into quantitative values. Once we have derived data from a video, we can overlay it on the video in real time to visualize what Lumi has generated.
+At Reach Industries, we are building innovative camera technology streaming and cloud based AI solutions. These cameras are specifically designed for lab environments where precision and detail are paramount. Our customers seamlessly integrate LabEyes into their setups to capture high-quality visual data. This raw data is then securely transmitted to Lumi, our advanced cloud-based platform. Lumi harnesses the power of state-of-the-art algorithms to process this data, converting the visual inputs into actionable quantitative values. One of the standout features of our system is its ability to overlay the derived data directly onto the original video in real-time. This not only allows researchers and lab technicians to see the data but also to interactively visualize the insights and patterns that Lumi has discerned, enhancing their understanding and decision-making processes.
 
 This assessment will centre around building a single page application, fetching remote data and displaying synchronised video and annotation information.
 You should design your work as if it were something you will be iterating on in the future in collaboration with other people - you won’t actually be doing this, but this should be considered in your decisions and code style
