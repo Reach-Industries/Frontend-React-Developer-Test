@@ -1,5 +1,5 @@
 <p align="center">
-<img src=https://via.placeholder.com/150/>
+<img src=https://github.com/Reach-Industries/Senior-Frontend-React-Developer-Test/blob/8143d4f719e9e690bb8a669dea8249ce367470c4/RI-Sen-FE-React.png/>
 </p>
 
 # Test Introduction
