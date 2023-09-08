@@ -4,10 +4,12 @@
 
 # Test Introduction
 
-At Reach Industries, we are building innovative data streaming and cloud based AI solutions. Our LabEye cameras systems are specifically designed for lab environments where precision and detail are paramount. Our customers seamlessly integrate LabEyes into their setups to capture high-quality visual data. This raw data is then securely transmitted to Lumi, our advanced cloud-based platform. Lumi harnesses the power of state-of-the-art algorithms to process this data, converting the visual inputs into actionable quantitative values. One of the standout features of our system is its ability to overlay the derived data directly onto the original video in real-time. This not only allows researchers and lab technicians to see the data but also to interactively visualize the insights and patterns that Lumi has discerned, enhancing their understanding and decision-making processes.
+At Reach Industries, we are building innovative products that leverage high-volume data streaming and cloud based AI. Our LabEye camera systems are specifically designed for lab environments where precision and detail are paramount. Our customers seamlessly integrate LabEyes into their setups to capture high-quality visual data. This raw data is then securely transmitted to Lumi, our advanced cloud-based platform. 
+
+Lumi harnesses the power of state-of-the-art algorithms to process this data, converting the visual inputs into actionable quantitative values. One of the standout features of our system is its ability to overlay the derived data directly onto the original video in real-time. This not only allows researchers and lab technicians to see the data but also to interactively visualize the insights and patterns that Lumi has discerned, enhancing their understanding and decision-making processes.
 
 This assessment will centre around building a single page application, fetching remote data and displaying synchronised video and annotation information.
-You should design your work as if it were something you will be iterating on in the future in collaboration with other people - you won’t actually be doing this, but this should be considered in your decisions and code style
+You should design your work as if it were something you will be iterating on in the future in collaboration with other people - you won’t actually be doing this, but this should be considered in your decisions and code style.
 
 # Task
 
@@ -27,9 +29,10 @@ Required Features:
   - A button to download the entire JSON.
 
 ## Notes
+
 - Fetch data from the provided URLs during runtime.
 - Some video frames might lack data.
-- The design should prevent scrolling or clipped overflow on a single page.
+- The design should display on a single page without scrolling or inaccessible clipped overflow.
 
 ## Bonus Task
 
@@ -38,7 +41,7 @@ Required Features:
 # Setup & Environment
 
 Must use
-- Type Script.
+- TypeScript.
 - React.
 
 # Deliverables & How to submit
@@ -48,7 +51,7 @@ Must use
 - A usable demo deployment of the app (Vercel, GitHub Pages etc).
 - Detailed notes in the repository's README.md. Explain the libraries you've used, any resources you've referenced, your design approach, and any constraints you faced. Your insights and the clarity of your explanation in this section are critical.
 
-## Bonus
+## Delivery Bonus
 
 - Dockerised Repo with an automated build process.
 
@@ -68,8 +71,8 @@ You will be marked on:
 ## 2. Is there a preferred method or tool for fetching the remote data?
 - No. 
 
-## 3. Can I use a framework or library other than React for certain components, like the video player, as long as the main application is in React?
-- Any framework or library can be used to complete the required tasks, but React and Typescript must be used for most of the application. 
+## 3. Can I use libraries or packages to complete technical parts of the test?
+- Absolutely. Please approach this test in the same way you would approach a standard piece of work. As stated previously, the only stipulation is you must use React and Typescript.
 
 # Troubleshooting & Support
 Who @Reach.Industries?
