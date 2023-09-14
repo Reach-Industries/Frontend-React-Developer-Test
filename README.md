@@ -29,6 +29,10 @@ Required Features:
   - The complete raw JSON in a toggleable section.
   - A button to download the entire JSON.
 - A comments section powered by the provide websocket above. The feed must show the comment as it is recieved, time and the user who produced it.
+  Example websocket event
+```
+{"name":"Melinda Bailey","picture":"https://randomuser.me/api/portraits/women/81.jpg","message":"That looks like a differential medium; might be trying to distinguish bacterial colonies."}
+```
 
 ## Notes
 
