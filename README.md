@@ -13,12 +13,13 @@ You should design your work as if it were something you will be iterating on in 
 
 # Task
 
-You have been provided with two remote data sources for a 20-second observation:
+You have been provided with three remote data sources for a 20-second observation:
 
 - An mp4 video [here](https://reach-industries-candidate-tests.s3.eu-west-2.amazonaws.com/FrontendCandidateTest-FINAL.mp4).
 - Annotation data in JSON format [here](https://reach-industries-candidate-tests.s3.eu-west-2.amazonaws.com/FrontendCandidateTest-FINAL.json).
+- A websocket that publishes comments connected to user profiles. [here](http://ttchatsocket.lumi.systems.s3-website.eu-west-2.amazonaws.com/)
 
-The main goal is to display the video with the provided data visualized on top of it.
+The main goal is to display the video with the provided data visualized on top of it and to the side.
 Required Features:
 - A header containing the title “Reach Industries Frontend Assessment”.
 - A sidebar listing available videos (please add mock entries for demonstration purposes).
@@ -27,6 +28,7 @@ Required Features:
   - Raw data of the currently displayed video frame.
   - The complete raw JSON in a toggleable section.
   - A button to download the entire JSON.
+- A comments section powered by the provide websocket above. The feed must show the comment as it is recieved, time and the user who produced it.
 
 ## Notes
 
