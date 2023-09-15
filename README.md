@@ -17,19 +17,21 @@ You have been provided with three remote data sources for a 20-second observatio
 
 - An mp4 video [here](https://reach-industries-candidate-tests.s3.eu-west-2.amazonaws.com/FrontendCandidateTest-FINAL.mp4).
 - Annotation data in JSON format [here](https://reach-industries-candidate-tests.s3.eu-west-2.amazonaws.com/FrontendCandidateTest-FINAL.json).
-- A websocket that publishes comments connected to user profiles. [here](http://ttchatsocket.lumi.systems.s3-website.eu-west-2.amazonaws.com/)
+- A websocket endpoint that publishes comments connected to user profiles. [here](http://ttchatsocket.lumi.systems.s3-website.eu-west-2.amazonaws.com/)
 
 The main goal is to display the video with the provided data visualized on top of it and to the side.
 Required Features:
 - A header containing the title “Reach Industries Frontend Assessment”.
 - A sidebar listing available videos (please add mock entries for demonstration purposes).
-- A main pane that includes:
+- A main pane that includes the following features:
   - The playable, scrubbable video with annotations.
   - Raw data of the currently displayed video frame.
-  - The complete raw JSON in a toggleable section.
+  - A simple live comments section powered by the provide websocket above. The feed must show the comment as it is recieved, time and the user who produced it.
+  - The complete raw JSON in a show/hide toggleable section.
   - A button to download the entire JSON.
-- A comments section powered by the provide websocket above. The feed must show the comment as it is recieved, time and the user who produced it.
-  Example websocket event
+  
+#### Example websocket event:
+
 ```
 {"name":"Melinda Bailey","picture":"https://randomuser.me/api/portraits/women/81.jpg","message":"That looks like a differential medium; might be trying to distinguish bacterial colonies."}
 ```
