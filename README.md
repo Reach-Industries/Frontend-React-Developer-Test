@@ -16,7 +16,7 @@ You should design your work as if it were something you will be iterating on in 
 You have been provided with three remote data sources for a 20-second observation:
 
 - An mp4 video [here](https://reach-industries-candidate-tests.s3.eu-west-2.amazonaws.com/FrontendCandidateTest-FINAL.mp4).
-- Annotation data in JSON format [here](https://reach-industries-candidate-tests.s3.eu-west-2.amazonaws.com/FrontendCandidateTest-FINAL.json).
+- Annotation data in JSON format describing the position and dimensions of a rect, frame-by-frame, formatted as [centre.x, centre.y, width, height] [here](https://reach-industries-candidate-tests.s3.eu-west-2.amazonaws.com/FrontendCandidateTest-FINAL.json).
 - A websocket endpoint that publishes comments connected to user profiles. [here](http://ttchatsocket.lumi.systems.s3-website.eu-west-2.amazonaws.com/)
 
 The main goal is to display the video with the provided data visualized on top of it and to the side.
